@@ -1,4 +1,8 @@
 
+* {
+    box-sizing: border-box;
+}
+
 
 #main_container {
     width: 800px;
@@ -94,11 +98,14 @@ ul {
 }
 
 h3 {
-    color: #e0e1dd;
-    border-style: solid;
-    border-color: red;
+    color: #e0e1dd !important;
+    border: 1px solid red !important;
 }
 
 #title {
-    font-style: italic;
+    font-style: italic !important;
+}
+
+span {
+    float: right !important;
 }
